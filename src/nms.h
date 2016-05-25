@@ -1,5 +1,5 @@
-#ifndef NMS_H
-#define NMS_H 1
+#ifndef NMS_H // it means if NMS_H is not already defined then 
+#define NMS_H 1 // define NMS_H with 1
 
 #include <stddef.h>
 #include <stdbool.h>
