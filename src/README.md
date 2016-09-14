@@ -12,11 +12,11 @@ configure the new object id to **cfg/index.js**
 @line: 92, **executed** must be name of document
 ```
 collection.find({
-    "executed": {
+    "<executed>": {
         "$exists": 1
     }
 ```
 @line: 103, **executed** must be name of document
 ```
-opts['last_executed_number'] = result[0].executed;
+opts['last_executed_number'] = result[0].<executed>;
 ```
