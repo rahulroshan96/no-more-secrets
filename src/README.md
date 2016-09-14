@@ -3,12 +3,12 @@
 mysql to mongo migration
 
 ## setup data migration automation script
-configure **run_once_auto.js** and **cfg/index.js**
+configure **run_once_auto.js** and **cfg/index.js** \n
 execute command:
 ```
 mongo < run_once_auto.js
 ```
-configure this object id to **cfg/index.js**
+configure the new object id to **cfg/index.js**
 @line: 92, **executed** must be name of document
 ```
 collection.find({
