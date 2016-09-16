@@ -17,7 +17,7 @@ collection.find({
         "$exists": 1
     }
 ```
-In **run_migration_auto.js**@line: 103, **executed** must be replaced with the document name
+In **run_migration_auto.js** @line: 103, **executed** must be replaced with the document name
 ```
 opts['last_executed_number'] = result[0].<executed>;
 ```
