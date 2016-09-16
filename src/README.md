@@ -10,7 +10,7 @@ mongo < run_once_auto.js
 ```
 configure the new object id to **cfg/index.js**
 
-@line: 92, **executed** must be replaced with document name
+In **run_migration_auto.js** @line: 92, **executed** must be replaced with document name
 ```
 collection.find({
     "<executed>": {
