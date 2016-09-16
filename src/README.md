@@ -8,7 +8,7 @@ execute command:
 ```
 mongo < run_once_auto.js
 ```
-configure the new object id to **cfg/index.js**
+configure the new object id in **cfg/index.js** file
 
 In **run_migration_auto.js** @line: 92, **executed** must be replaced with document name
 ```
@@ -17,7 +17,7 @@ collection.find({
         "$exists": 1
     }
 ```
-@line: 103, **executed** must be replaced with the document name
+In **run_migration_auto.js**@line: 103, **executed** must be replaced with the document name
 ```
 opts['last_executed_number'] = result[0].<executed>;
 ```
